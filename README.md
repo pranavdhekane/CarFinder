@@ -41,4 +41,4 @@ The app will be running at http://localhost:5173
 Made with ❤️ by **<a href="https://github.com/pranavdhekane">Pranav Dhekane</a>** as a frontend assignment project.
 
 ## 🌐 Deployment
-Deployed on Netlify : 
+Deployed on Netlify : https://carfinder-web.netlify.app/
