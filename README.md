@@ -1,54 +1,44 @@
-# React + TypeScript + Vite
+# Car Finder 🚘
+Car Finder is a frontend-only React.js web application designed to help users find cars based on specific criteria. This app simulates a fully-functional experience using dummy JSON data to filter, browse, and wishlist vehicles. It’s a demonstration of a responsive, feature-rich UI without the need for a backend.
+Note: The Contact page is currently non-functional, as no backend integration was required for this project.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Features
+- 🔍 Filter cars by: Brand, Price Range, Fuel Type, Seating Capacity
+- ❤️ Add/Remove cars from Wishlist (persisted using localStorage)
+- 🧠 Smart Filtering – filters update UI instantly with no page reload
+- 🔄 Real-time UI Updates using React state
+- 📄 Pagination – shows 9 cars per page
+- 💻 Responsive Design – works on all screen sizes
+- 🚫 Graceful fallback for empty search results
+- 🎨 Sleek and modern UI using TailwindCSS
 
-Currently, two official plugins are available:
+## ⚙️ Tech Stack
+- React.js – UI and component logic
+- TailwindCSS – Utility-first styling
+- localStorage – Persisting wishlist data
+- JSON – Mock API & data source
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🚀 Getting Started
+1. Clone the repository
+```bash
+git clone https://github.com/pranavdhekane/CarFinder.git
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+2. Install dependencies
+```bash
+cd CarFinder
+npm install
 ```
+3. Start the development server
+```bash
+npm run dev
+```
+The app will be running at http://localhost:5173
+
+## 💡 Future Improvements
+✅ Integrate a real backend (Node.js or Firebase) for dynamic data
+
+## 🙌 Credits
+Made with ❤️ by **Pranav Dhekane** as a frontend assignment project.
+
+## 🌐 Deployment
+Deployed on Netlify : 

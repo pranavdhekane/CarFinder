@@ -1,5 +1,4 @@
-{
-  "cars": [
+[
       {
           "id": 1,
           "name": "EXP",
@@ -2341,4 +2340,3 @@
           "image": "http://dummyimage.com/176x100.png/cc0000/ffffff"
       }
   ]
-}

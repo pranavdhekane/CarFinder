@@ -10,7 +10,9 @@ const Navbar = () => {
     <>
       <nav className="flex items-center justify-around bg-white border-2 border-black rounded-xl py-3 m-4 shadow-md">
         <div className="text-3xl font-bold text-black">
+          <a href="/">
           Car<span className="text-blue-600">Finder</span>
+          </a>
         </div>
 
         <div className="hidden md:flex gap-8 text-lg font-medium text-gray-800 [&_a:hover]:text-blue-600 [&_a]:transition">

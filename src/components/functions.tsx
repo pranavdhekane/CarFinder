@@ -11,10 +11,11 @@ export interface Car {
 // Fetch all cars 
 export async function getCars(): Promise<Car[]> {
     try {
-        const res = await fetch("http://localhost:4000/cars");
+        // const res = await fetch("http://localhost:4000/cars");
+        const res = await fetch("https://raw.githubusercontent.com/pranavdhekane/CarFinder/refs/heads/main/db.json");
         if (!res.ok) throw new Error("Failed to fetch cars");
         const data = await res.json();
-        return data;
+        return data.cars;
     } catch (error) {
         console.error("Error fetching cars:", error);
         return [];

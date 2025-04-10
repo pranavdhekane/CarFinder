@@ -34,9 +34,8 @@ export default function WishList() {
   };
 
   return (
-    <div className="p-4 min-h-[75dvh]">
+    <div className="p-4 min-h-[60dvh]">
       <h2 className="text-2xl font-semibold mb-4">Your Wishlist</h2>
-
       {wishlistCars.length === 0 ? (
         <p >No cars in your wishlist yet!</p>
       ) : (

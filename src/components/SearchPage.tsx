@@ -33,7 +33,6 @@ export default function CarList() {
   const [priceRange, setPriceRange] = useState<[number, number]>([300000, 1000000]);
   const [showFilters, setShowFilters] = useState(false);
 
-
   useEffect(() => {
     getCars().then(setCars);
   }, []);
