@@ -174,8 +174,13 @@ export default function CarList() {
         ))}
       </div>
 
+      {/* No cars found */}
+      {
+        cars.length === 0 ? <h1 className="text-3xl text-red-500 text-center text-semibold mb-10">⚠️ Error fetching Cars</h1>:<></>
+      }
+
       <div className="flex p-5 justify-center">
-        <Pagination className="border-black border-2 rounded-xl bg-black text-white w-fit px-5 p-3">
+        <Pagination className="border-black border-2 rounded-xl bg-black text-white w-fit px-5 p-2">
           <PaginationContent>
             {/* Previous button */}
             <PaginationItem>

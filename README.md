@@ -38,7 +38,7 @@ The app will be running at http://localhost:5173
 ✅ Integrate a real backend (Node.js or Firebase) for dynamic data
 
 ## 🙌 Credits
-Made with ❤️ by **Pranav Dhekane** as a frontend assignment project.
+Made with ❤️ by **<a href="https://github.com/pranavdhekane">Pranav Dhekane</a>** as a frontend assignment project.
 
 ## 🌐 Deployment
 Deployed on Netlify : 
