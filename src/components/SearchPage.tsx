@@ -67,7 +67,7 @@ export default function CarList() {
 
   return (
     <>
-      <div className="text-center py-8 px-4">
+      <div className="text-center p-8">
         <h2 className="text-3xl font-semibold mb-2">Search Your Ideal Car</h2>
         <p className="text-gray-600 text-md max-w-xl mx-auto">
           Explore a wide range of cars tailored to your preferences. Use filters to narrow down your search and save your favorites to the wishlist.
